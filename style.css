@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.links--container {
+    background-color: green;
+}
+
+nav {
+    background-color:green;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .links--container ul {
+    display: flex;
+    align-items: center;
+}
+
+nav .links--container ul > li > a {
+    padding: 20px;
+    line-height:66px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+nav span {
+    line-height: 66px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+header {
+    margin:0;
+    padding:0;
+    background: url(pagani\ zonda.jpg) no-repeat center fixed; 
+    background-size: cover;
+    height: 600px;
+}
+
+header h1 {
+    line-height: 300px;
+    color:orange;
+    font-size: 45px;
+}
+
+div h1 {
+    background-color: green;
+    font-size: 30px;
+}
+
+div p {
+    font-size: 20px;
+}
+
+article h1 {
+    background-color: green;
+    font-size: 30px;
+    display: flex;
+    width: 100%;
+}
+
+aside h1 {
+    background-color: green;
+    font-size: 30px;
+    display: flex;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
